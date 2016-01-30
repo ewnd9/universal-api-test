@@ -1,0 +1,47 @@
+{
+  "name": "universal-api-test",
+  "version": "0.0.0",
+  "description": "Test your universal code in node and browsers via karma",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "./bin.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewnd9/universal-api-test.git"
+  },
+  "keywords": [
+    "karma",
+    "mocha",
+    "testing",
+    "tests",
+    "universal",
+    "isomorphic"
+  ],
+  "bin": {
+    "universal-api-test": "bin.sh"
+  },
+  "author": "ewnd9 <ewndnine@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "babel-loader": "^5.4.0",
+    "browserify": "^13.0.0",
+    "chai": "^3.2.0",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-env-preprocessor": "^0.1.1",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-mocha": "^0.2.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-safari-launcher": "^0.1.1",
+    "karma-sauce-launcher": "^0.3.0",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.2.5",
+    "phantomjs-prebuilt": "^2.1.3",
+    "webpack": "^1.12.12"
+  },
+  "devDependencies": {
+    "karma-sauce-launcher": "^0.3.0"
+  }
+}
