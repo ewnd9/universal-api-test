@@ -1,6 +1,6 @@
 {
   "name": "universal-api-test",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test your universal code in node and browsers via karma",
   "main": "dist/index.js",
   "scripts": {
